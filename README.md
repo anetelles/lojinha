@@ -1,4 +1,4 @@
-# Hello, World! Eu sou a Ane. 
+# Hello, World!
 
 <h4>Passando por aqui só para esclarecer algumas coisinhas para vocês:</h4>
  <ul>
