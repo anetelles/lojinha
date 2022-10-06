@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background-color: #EEF2F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid black;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 32px;
+}
+
+.item {
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: darkturquoise;
+}
+
+.conteudo, .card-borda .card {
+    border: 1px solid black;
+}
+
+.borda-carrossel, .card-body{
+    border-top: 1px solid black;
+}
+
+
+
+
