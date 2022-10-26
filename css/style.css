@@ -81,6 +81,12 @@
     font-weight: 400;
 }
 
+@media (max-width: 576px) { 
+    .titulo{
+        font-size: 4em;
+    }
+ }
+
 .rodape {
     display: flex;
     flex-direction: row;
@@ -100,4 +106,15 @@
     color: darkturquoise;
 }
 
+.botaozinho{
+    color: #EEF2F0;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
 
+.botaozinho:hover{
+    background-color: darkturquoise;
+    color: #EEF2F0;
+}
