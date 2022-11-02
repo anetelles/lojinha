@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 * {
     margin: 0%;
@@ -43,6 +44,9 @@
 
 .borda-carrossel, .card-body {
     border-top: 1px solid black;
+    font-family:'Jost', sans-serif;
+    font-weight: 500;
+    
 }
 
 .cor {
@@ -81,11 +85,11 @@
     font-weight: 400;
 }
 
-@media (max-width: 576px) { 
-    .titulo{
+@media (max-width: 576px) {
+    .titulo {
         font-size: 4em;
     }
- }
+}
 
 .rodape {
     display: flex;
@@ -106,7 +110,7 @@
     color: darkturquoise;
 }
 
-.botaozinho{
+.botaozinho {
     color: #EEF2F0;
     background-color: black;
     text-decoration: none;
@@ -114,7 +118,46 @@
     border: 1px solid black;
 }
 
-.botaozinho:hover{
+.botaozinho:hover {
     background-color: darkturquoise;
     color: #EEF2F0;
 }
+
+.pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0%;
+    gap: 10px;
+   
+}
+
+.cor {
+    background-color: rgb(37, 37, 37);
+    width: 2em;
+    border: 1px solid;
+}
+
+.cor1 {
+    background-color: rgb(40, 72, 67);
+    width: 2em;
+    border: 1px solid;
+}
+
+.cor2 {
+    background-color: rgb(131, 51, 51);
+    width: 2em;
+    border: 1px solid;
+   
+}
+
+.cor3 {
+    background-color: rgb(112, 22, 54);
+    width: 2em;
+    border: 1px solid;
+}
+
+
+
+
+
