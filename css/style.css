@@ -125,10 +125,13 @@
 
 .pai {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 0%;
     gap: 10px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
    
 }
 
