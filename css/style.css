@@ -44,9 +44,9 @@
 
 .borda-carrossel, .card-body {
     border-top: 1px solid black;
-    font-family:'Jost', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 500;
-    
+
 }
 
 .cor {
@@ -110,7 +110,7 @@
     color: darkturquoise;
 }
 
-.botaozinho {
+.btn-compra {
     color: #EEF2F0;
     background-color: black;
     text-decoration: none;
@@ -118,49 +118,48 @@
     border: 1px solid black;
 }
 
-.botaozinho:hover {
+.btn-compra:hover {
     background-color: darkturquoise;
     color: #EEF2F0;
 }
 
-.pai {
+.cores {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0%;
     gap: 10px;
     position: absolute;
-    top: 8px;
-    right: 16px;
-   
+    top: 10em;
+    right: 0.9em;
+
 }
 
 .cor {
     background-color: rgb(37, 37, 37);
-    width: 2em;
+    width: 1.0em;
+    height: 1.0em;
     border: 1px solid;
 }
 
 .cor1 {
     background-color: rgb(40, 72, 67);
-    width: 2em;
+    width: 1.0em;
+    height: 1.0em;
     border: 1px solid;
 }
 
 .cor2 {
     background-color: rgb(131, 51, 51);
-    width: 2em;
+    width: 1.0em;
+    height: 1.0em;
     border: 1px solid;
-   
+
 }
 
 .cor3 {
     background-color: rgb(112, 22, 54);
-    width: 2em;
+    width: 1.0em;
+    height: 1.0em;
     border: 1px solid;
 }
-
-
-
-
-
