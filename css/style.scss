@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+$primaryColor: rgb(20, 20, 20);
+$secondaryColor: rgb(0, 206, 209);
+$tertiaryColor: rgb(238, 242, 240);
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    background-color: $tertiaryColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid $primaryColor;
+    text-decoration: none;
+}
+
+.menu-principal {
+    display: flex;
+    gap: 32px;
+}
+
+.item {
+    color: $primaryColor;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: $secondaryColor;
+}
+
+.conteudo, .card-borda .card {
+    border: 1px solid $primaryColor;
+}
+
+.borda-carrossel, .card-body {
+    border-top: 1px solid $primaryColor;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+
+}
+
+.cor {
+    background-color: $secondaryColor;
+}
+
+.card {
+    box-shadow: 6px 6px $primaryColor;
+}
+
+.botao {
+    background-color: $primaryColor;
+    padding: 8px;
+    color: $tertiaryColor;
+    border-radius: 7px;
+}
+
+.botao:hover {
+    background-color: $secondaryColor;
+    border: 1px solid $primaryColor;
+    padding: 8px;
+    color: $tertiaryColor;
+    border-radius: 7px;
+}
+
+.tamanho-card {
+    width: 18em;
+}
+
+.titulo {
+    color: $tertiaryColor;
+    background-color: $primaryColor;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 10em;
+    font-weight: 400;
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 4em;
+    }
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-rodape {
+    text-decoration: none;
+    margin-bottom: 3em;
+    color: $primaryColor;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.item-rodape:hover {
+    color: $secondaryColor;
+}
+
+.btn-compra {
+    color: $tertiaryColor;
+    background-color: $primaryColor;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid $primaryColor;
+}
+
+.btn-compra:hover {
+    background-color: $secondaryColor;
+    color: $tertiaryColor;
+}
+
+.cores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    gap: 10px;
+    position: absolute;
+    top: 10em;
+    right: 0.9em;
+
+}
+
+.cor {
+    background-color: rgb(37, 37, 37);
+    width: 1.0em;
+    height: 1.0em;
+    border: 1px solid;
+}
+
+.cor1 {
+    background-color: rgb(40, 72, 67);
+    width: 1.0em;
+    height: 1.0em;
+    border: 1px solid;
+}
+
+.cor2 {
+    background-color: rgb(131, 51, 51);
+    width: 1.0em;
+    height: 1.0em;
+    border: 1px solid;
+
+}
+
+.cor3 {
+    background-color: rgb(112, 22, 54);
+    width: 1.0em;
+    height: 1.0em;
+    border: 1px solid;
+}

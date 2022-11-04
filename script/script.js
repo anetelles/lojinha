@@ -8,18 +8,10 @@ function resetTexto(x) {
 }
 
 //Imagens dos cards:
-function img() {
-    document.getElementById('trocarimagem').src = "./imgs/head-preto.png";
+function img(cor) {
+    document.getElementById('trocarimagem').src = cor;
 }
-function img1() {
-    document.getElementById('trocarimagem').src = "./imgs/head-verde.png";
-}
-function img2() {
-    document.getElementById('trocarimagem').src = "./imgs/head-marrom.png";
-}
-function img3() {
-    document.getElementById('trocarimagem').src = "./imgs/head-vermelho.png";
-}
+
 
 
 
