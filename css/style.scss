@@ -31,6 +31,14 @@ $tertiaryColor: rgb(238, 242, 240);
     gap: 32px;
 }
 
+@media (max-width: 576px) {
+    .menu-principal{
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: end;
+    }
+}
+
 .item {
     color: $primaryColor;
     font-family: 'Jost', sans-serif;
@@ -100,6 +108,15 @@ $tertiaryColor: rgb(238, 242, 240);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+@media (max-width: 576px) {
+    .rodape {
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        margin: 30px;
+    }
 }
 
 .item-rodape {

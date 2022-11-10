@@ -7,5 +7,6 @@
     <li>Será um projeto feito gradualmente, ou seja, estarei atualizando por versionamento.</li>
     <li>A criação do site foi feita com o intuito de agregar ao meu próprio portfólio.</li>
     <li>As imagens NÃO são minhas e estão sendo utilizadas no site apenas para demonstração. Os devidos créditos são do banco de imagens: Freepik.</li>
+    <li>A modificação de imagens foi realiada através do software Adobe Photoshop.</li>
     <li>Espero que gostem! 💜 </li>
  </ul>
