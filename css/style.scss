@@ -24,11 +24,11 @@ $tertiaryColor: rgb(238, 242, 240);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-bottom: 1px solid $primaryColor;
     text-decoration: none;
-}
 
-.menu-principal {
-    display: flex;
-    gap: 32px;
+    .menu-principal {
+        display: flex;
+        gap: 32px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -45,10 +45,10 @@ $tertiaryColor: rgb(238, 242, 240);
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
-}
 
-.item:hover {
-    color: $secondaryColor;
+    &:hover{
+        color: $secondaryColor;
+    }
 }
 
 .conteudo, .card-borda .card {
@@ -59,7 +59,6 @@ $tertiaryColor: rgb(238, 242, 240);
     border-top: 1px solid $primaryColor;
     font-family: 'Jost', sans-serif;
     font-weight: 500;
-
 }
 
 .cor {
@@ -70,24 +69,25 @@ $tertiaryColor: rgb(238, 242, 240);
     box-shadow: 6px 6px $primaryColor;
 }
 
+.tamanho-card {
+    width: 18em;
+}
+
 .botao {
     background-color: $primaryColor;
     padding: 8px;
     color: $tertiaryColor;
     border-radius: 7px;
+
+    &:hover {
+        background-color: $secondaryColor;
+        border: 1px solid $primaryColor;
+        padding: 8px;
+        color: $tertiaryColor;
+        border-radius: 7px;
+    }
 }
 
-.botao:hover {
-    background-color: $secondaryColor;
-    border: 1px solid $primaryColor;
-    padding: 8px;
-    color: $tertiaryColor;
-    border-radius: 7px;
-}
-
-.tamanho-card {
-    width: 18em;
-}
 
 .titulo {
     color: $tertiaryColor;
@@ -108,6 +108,19 @@ $tertiaryColor: rgb(238, 242, 240);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+    .item-rodape {
+        text-decoration: none;
+        margin-bottom: 3em;
+        color: $primaryColor;
+        font-family: 'Jost', sans-serif;
+        font-size: 1em;
+        font-weight: 400;
+    
+        &:hover{
+            color: $secondaryColor;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -119,33 +132,20 @@ $tertiaryColor: rgb(238, 242, 240);
     }
 }
 
-.item-rodape {
-    text-decoration: none;
-    margin-bottom: 3em;
-    color: $primaryColor;
-    font-family: 'Jost', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-}
-
-.item-rodape:hover {
-    color: $secondaryColor;
-}
-
 .btn-compra {
     color: $tertiaryColor;
     background-color: $primaryColor;
     text-decoration: none;
     border-radius: 10px;
     border: 1px solid $primaryColor;
+
+    &:hover{
+        background-color: $secondaryColor;
+        color: $tertiaryColor;
+    }
 }
 
-.btn-compra:hover {
-    background-color: $secondaryColor;
-    color: $tertiaryColor;
-}
-
-.cores {
+.paleta-cores {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,33 +155,34 @@ $tertiaryColor: rgb(238, 242, 240);
     top: 10em;
     right: 0.9em;
 
+    .cor {
+        background-color: rgb(37, 37, 37);
+        width: 1.0em;
+        height: 1.0em;
+        border: 1px solid;
+    }
+    
+    .cor1 {
+        background-color: rgb(40, 72, 67);
+        width: 1.0em;
+        height: 1.0em;
+        border: 1px solid;
+    }
+    
+    .cor2 {
+        background-color: rgb(131, 51, 51);
+        width: 1.0em;
+        height: 1.0em;
+        border: 1px solid;
+    
+    }
+    
+    .cor3 {
+        background-color: rgb(112, 22, 54);
+        width: 1.0em;
+        height: 1.0em;
+        border: 1px solid;
+    }
 }
 
-.cor {
-    background-color: rgb(37, 37, 37);
-    width: 1.0em;
-    height: 1.0em;
-    border: 1px solid;
-}
 
-.cor1 {
-    background-color: rgb(40, 72, 67);
-    width: 1.0em;
-    height: 1.0em;
-    border: 1px solid;
-}
-
-.cor2 {
-    background-color: rgb(131, 51, 51);
-    width: 1.0em;
-    height: 1.0em;
-    border: 1px solid;
-
-}
-
-.cor3 {
-    background-color: rgb(112, 22, 54);
-    width: 1.0em;
-    height: 1.0em;
-    border: 1px solid;
-}

@@ -30,7 +30,7 @@
   text-decoration: none;
 }
 
-.menu-principal {
+.menu .menu-principal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,6 +80,10 @@
           box-shadow: 6px 6px #141414;
 }
 
+.tamanho-card {
+  width: 18em;
+}
+
 .botao {
   background-color: #141414;
   padding: 8px;
@@ -93,10 +97,6 @@
   padding: 8px;
   color: #eef2f0;
   border-radius: 7px;
-}
-
-.tamanho-card {
-  width: 18em;
 }
 
 .titulo {
@@ -126,6 +126,19 @@
       justify-content: space-around;
 }
 
+.rodape .item-rodape {
+  text-decoration: none;
+  margin-bottom: 3em;
+  color: #141414;
+  font-family: 'Jost', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.rodape .item-rodape:hover {
+  color: darkturquoise;
+}
+
 @media (max-width: 576px) {
   .rodape {
     -ms-flex-wrap: wrap;
@@ -137,19 +150,6 @@
     text-align: center;
     margin: 30px;
   }
-}
-
-.item-rodape {
-  text-decoration: none;
-  margin-bottom: 3em;
-  color: #141414;
-  font-family: 'Jost', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-}
-
-.item-rodape:hover {
-  color: darkturquoise;
 }
 
 .btn-compra {
@@ -165,7 +165,7 @@
   color: #eef2f0;
 }
 
-.cores {
+.paleta-cores {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -183,28 +183,28 @@
   right: 0.9em;
 }
 
-.cor {
+.paleta-cores .cor {
   background-color: #252525;
   width: 1.0em;
   height: 1.0em;
   border: 1px solid;
 }
 
-.cor1 {
+.paleta-cores .cor1 {
   background-color: #284843;
   width: 1.0em;
   height: 1.0em;
   border: 1px solid;
 }
 
-.cor2 {
+.paleta-cores .cor2 {
   background-color: #833333;
   width: 1.0em;
   height: 1.0em;
   border: 1px solid;
 }
 
-.cor3 {
+.paleta-cores .cor3 {
   background-color: #701636;
   width: 1.0em;
   height: 1.0em;
