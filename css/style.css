@@ -51,7 +51,7 @@
 
 .item {
   color: #141414;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
@@ -67,7 +67,7 @@
 
 .borda-carrossel, .card-body {
   border-top: 1px solid #141414;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 500;
 }
 
@@ -103,7 +103,7 @@
   color: #eef2f0;
   background-color: #141414;
   text-align: center;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 10em;
   font-weight: 400;
 }
@@ -130,7 +130,7 @@
   text-decoration: none;
   margin-bottom: 3em;
   color: #141414;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 1em;
   font-weight: 400;
 }

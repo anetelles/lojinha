@@ -5,6 +5,7 @@
 $primaryColor: rgb(20, 20, 20);
 $secondaryColor: rgb(0, 206, 209);
 $tertiaryColor: rgb(238, 242, 240);
+$primaryFont: 'Jost', sans-serif;
 
 
 * {
@@ -41,7 +42,7 @@ $tertiaryColor: rgb(238, 242, 240);
 
 .item {
     color: $primaryColor;
-    font-family: 'Jost', sans-serif;
+    font-family: $primaryFont;
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
@@ -57,7 +58,7 @@ $tertiaryColor: rgb(238, 242, 240);
 
 .borda-carrossel, .card-body {
     border-top: 1px solid $primaryColor;
-    font-family: 'Jost', sans-serif;
+    font-family: $primaryFont;
     font-weight: 500;
 }
 
@@ -93,7 +94,7 @@ $tertiaryColor: rgb(238, 242, 240);
     color: $tertiaryColor;
     background-color: $primaryColor;
     text-align: center;
-    font-family: 'Jost', sans-serif;
+    font-family: $primaryFont;
     font-size: 10em;
     font-weight: 400;
 }
@@ -113,7 +114,7 @@ $tertiaryColor: rgb(238, 242, 240);
         text-decoration: none;
         margin-bottom: 3em;
         color: $primaryColor;
-        font-family: 'Jost', sans-serif;
+        font-family: $primaryFont;
         font-size: 1em;
         font-weight: 400;
     
