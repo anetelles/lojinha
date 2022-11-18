@@ -1,12 +1,10 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 
 $primaryColor: rgb(20, 20, 20);
 $secondaryColor: rgb(0, 206, 209);
 $tertiaryColor: rgb(238, 242, 240);
-$primaryFont: 'Jost', sans-serif;
-
+$primaryFont: "Jost", sans-serif;
 
 * {
     margin: 0%;
@@ -33,7 +31,7 @@ $primaryFont: 'Jost', sans-serif;
 }
 
 @media (max-width: 576px) {
-    .menu-principal{
+    .menu-principal {
         flex-wrap: wrap;
         flex-direction: column;
         text-align: end;
@@ -47,16 +45,18 @@ $primaryFont: 'Jost', sans-serif;
     font-weight: 400;
     text-decoration: none;
 
-    &:hover{
+    &:hover {
         color: $secondaryColor;
     }
 }
 
-.conteudo, .card-borda .card {
+.conteudo,
+.card-borda .card {
     border: 1px solid $primaryColor;
 }
 
-.borda-carrossel, .card-body {
+.borda-carrossel,
+.card-body {
     border-top: 1px solid $primaryColor;
     font-family: $primaryFont;
     font-weight: 500;
@@ -89,7 +89,6 @@ $primaryFont: 'Jost', sans-serif;
     }
 }
 
-
 .titulo {
     color: $tertiaryColor;
     background-color: $primaryColor;
@@ -117,8 +116,8 @@ $primaryFont: 'Jost', sans-serif;
         font-family: $primaryFont;
         font-size: 1em;
         font-weight: 400;
-    
-        &:hover{
+
+        &:hover {
             color: $secondaryColor;
         }
     }
@@ -140,7 +139,7 @@ $primaryFont: 'Jost', sans-serif;
     border-radius: 10px;
     border: 1px solid $primaryColor;
 
-    &:hover{
+    &:hover {
         background-color: $secondaryColor;
         color: $tertiaryColor;
     }
@@ -158,31 +157,48 @@ $primaryFont: 'Jost', sans-serif;
 
     .cor {
         background-color: rgb(37, 37, 37);
-        width: 1.0em;
-        height: 1.0em;
+        width: 1em;
+        height: 1em;
         border: 1px solid;
     }
-    
+
     .cor1 {
         background-color: rgb(40, 72, 67);
-        width: 1.0em;
-        height: 1.0em;
+        width: 1em;
+        height: 1em;
         border: 1px solid;
     }
-    
+
     .cor2 {
         background-color: rgb(131, 51, 51);
-        width: 1.0em;
-        height: 1.0em;
+        width: 1em;
+        height: 1em;
         border: 1px solid;
-    
     }
-    
+
     .cor3 {
         background-color: rgb(112, 22, 54);
-        width: 1.0em;
-        height: 1.0em;
+        width: 1em;
+        height: 1em;
         border: 1px solid;
+    }
+}
+
+.cursor-linha {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.cursor {
+    animation: cursorPiscando 1s infinite normal;
+
+    @keyframes cursorPiscando {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+        }
+        to {
+            border-right-color: transparent;
+        }
     }
 }
 

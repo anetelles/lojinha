@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -61,11 +60,13 @@
   color: darkturquoise;
 }
 
-.conteudo, .card-borda .card {
+.conteudo,
+.card-borda .card {
   border: 1px solid #141414;
 }
 
-.borda-carrossel, .card-body {
+.borda-carrossel,
+.card-body {
   border-top: 1px solid #141414;
   font-family: "Jost", sans-serif;
   font-weight: 500;
@@ -185,29 +186,57 @@
 
 .paleta-cores .cor {
   background-color: #252525;
-  width: 1.0em;
-  height: 1.0em;
+  width: 1em;
+  height: 1em;
   border: 1px solid;
 }
 
 .paleta-cores .cor1 {
   background-color: #284843;
-  width: 1.0em;
-  height: 1.0em;
+  width: 1em;
+  height: 1em;
   border: 1px solid;
 }
 
 .paleta-cores .cor2 {
   background-color: #833333;
-  width: 1.0em;
-  height: 1.0em;
+  width: 1em;
+  height: 1em;
   border: 1px solid;
 }
 
 .paleta-cores .cor3 {
   background-color: #701636;
-  width: 1.0em;
-  height: 1.0em;
+  width: 1em;
+  height: 1em;
   border: 1px solid;
+}
+
+.cursor-linha {
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.cursor {
+  -webkit-animation: cursorPiscando 1s infinite normal;
+          animation: cursorPiscando 1s infinite normal;
+}
+
+@-webkit-keyframes cursorPiscando {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes cursorPiscando {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 /*# sourceMappingURL=style.css.map */

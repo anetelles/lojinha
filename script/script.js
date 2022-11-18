@@ -8,8 +8,8 @@ function resetTexto(x) {
 }
 
 //Imagens dos cards:
-function img(cor) {
-    document.getElementById('trocarimagem').src = cor;
+function img(trocarCor,setarImagem) {
+    document.getElementById(setarImagem).src = trocarCor;
 }
 
 
