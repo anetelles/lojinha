@@ -155,6 +155,8 @@ $primaryFont: "Jost", sans-serif;
     top: 10em;
     right: 0.9em;
 
+
+    //Cores - Card 1
     .cor {
         background-color: rgb(37, 37, 37);
         width: 1em;
@@ -182,6 +184,80 @@ $primaryFont: "Jost", sans-serif;
         height: 1em;
         border: 1px solid;
     }
+
+    //Cores - Card 2
+    .cor4 {
+        background-color: rgb(190, 150, 141);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor5 {
+        background-color: rgb(206, 202, 255);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor6 {
+        background-color: rgb(246, 202, 255);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor7 {
+        background-color: rgb(134, 245, 252);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor8 {
+        background-color: rgb(159, 206, 207);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor9 {
+        background-color: rgb(230, 182, 230);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor10 {
+        background-color: rgb(192, 169, 151);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor11 {
+        background-color: rgb(143, 141, 170);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor12 {
+        background-color: rgb(226, 226, 231);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor13 {
+        background-color: rgb(217, 195, 220);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor14 {
+        background-color: rgb(186, 197, 201);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
+    .cor15 {
+        background-color: rgb(215, 203, 184);
+        width: 1em;
+        height: 1em;
+        border: 1px solid;
+    }
 }
 
 .cursor-linha {
@@ -200,6 +276,11 @@ $primaryFont: "Jost", sans-serif;
             border-right-color: transparent;
         }
     }
+}
+
+.valor{
+    text-decoration: line-through;
+    font-size: small;
 }
 
 
