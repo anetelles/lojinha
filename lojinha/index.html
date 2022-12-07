@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+    <title>Lojinha</title>
+</head>
+
+<body>
+    <header class="menu">
+        <a href="index.html"><img src="" alt="logo"></a>
+        <nav class="menu-principal">
+            <a class="item" href="./paginas/modafeminina.html">Moda Feminina</a>
+            <a class="item" href="#">Notícias</a>
+            <a class="item" href="#">Cadastre-se</a>
+            <a class="item" href="#">Login</a>
+        </nav>
+    </header>
+    <main class="container-fluid">
+        <!--Início do Conteúdo-->
+        <section class="conteudo mt-5">
+
+            <!--Início do Carrossel-->
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imgs/carrossel-1.png" class="d-block w-100" alt="Bucket Hat em promoção, 50% off.">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/carrossel-2.png" class="d-block w-100" alt="Tamanho das camisetas">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/carrossel-3.png" class="d-block w-100" alt="Amostra moletons">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--Fim do Carrossel-->
+
+            <div class=" borda-carrossel">
+                <!--1ª Linha da Vitrine-->
+                <div class="row ms-5 mt-5">
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/head-preto.png" class="card-img-top" id="trocarimagem">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bucket Head</h5>
+                                    <p class="card-text">De <span class="valor"> R$ 150,00 </span> por R$ 100,00</p>
+                                    <div class="paleta-cores mb-3">
+                                        <input class="cor" type="button" value=""
+                                            onclick="img('./imgs/head-preto.png','trocarimagem');">
+                                        <input class="cor1" type="button" value=""
+                                            onclick="img('./imgs/head-verde.png','trocarimagem');">
+                                        <input class="cor2" type="button" value=""
+                                            onclick="img('./imgs/head-marrom.png','trocarimagem');">
+                                        <input class="cor3" type="button" value=""
+                                            onclick="img('./imgs/head-vermelho.png','trocarimagem');">
+                                    </div>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/garrafinha-rose.png" class="card-img-top" id="trocarimagem1" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">De <span class="valor"> R$ 150,00 </span> por R$ 100,00</p>
+                                    <div class="paleta-cores mb-3">
+                                        <input class="cor4" type="button" value=""
+                                            onclick="img('./imgs/garrafinha-rose.png','trocarimagem1');">
+                                        <input class="cor5" type="button" value=""
+                                            onclick="img('./imgs/garrafinha-lilas.png','trocarimagem1');">
+                                        <input class="cor6" type="button" value=""
+                                            onclick="img('./imgs/garrafinha-rosa.png','trocarimagem1');">
+                                        <input class="cor7" type="button" value=""
+                                            onclick="img('./imgs/garrafinha-azul.png','trocarimagem1');">
+                                    </div>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/casal-azul.png" class="card-img-top" id="trocarimagem2" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">De <span class="valor"> R$ 150,00 </span> por R$ 100,00</p>
+                                    <div class="paleta-cores mb-3">
+                                        <input class="cor8" type="button" value=""
+                                            onclick="img('./imgs/casal-azul.png','trocarimagem2');">
+                                        <input class="cor9" type="button" value=""
+                                            onclick="img('./imgs/casal-rosa.png','trocarimagem2');">
+                                        <input class="cor10" type="button" value=""
+                                            onclick="img('./imgs/casal-bege.png','trocarimagem2');">
+                                        <input class="cor11" type="button" value=""
+                                            onclick="img('./imgs/casal-lilas.png','trocarimagem2');">
+                                    </div>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/coracao-branca.png" class="card-img-top" id="trocarimagem3" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">De <span class="valor"> R$ 150,00 </span> por R$ 100,00</p>
+                                    <div class="paleta-cores mb-3">
+                                        <input class="cor12" type="button" value=""
+                                            onclick="img('./imgs/coracao-branca.png','trocarimagem3');">
+                                        <input class="cor13" type="button" value=""
+                                            onclick="img('./imgs/coracao-lilas.png','trocarimagem3');">
+                                        <input class="cor14" type="button" value=""
+                                            onclick="img('./imgs/coracao-azul.png','trocarimagem3');">
+                                        <input class="cor15" type="button" value=""
+                                            onclick="img('./imgs/coracao-bege.png','trocarimagem3');">
+                                    </div>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--2ª Linha da Vitrine-->
+                <div class="row ms-5 mt-5 mb-5">
+                    <div class="col mb-5">
+                        <div class="espacinho card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/01.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"></p>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/01.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"></p>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/01.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"></p>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-5">
+                        <div class="card-borda">
+                            <div class="card tamanho-card">
+                                <img src="./imgs/01.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"></p>
+                                    <button class="btn-compra"><a href="#" class="btn text-light"
+                                            onmouseover="showTexto(this);"
+                                            onmouseout="resetTexto(this);">Comprar</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+    <footer class="rodape mt-5">
+        <a class="item-rodape" href="./paginas/sobre-nos.html">Sobre Nós</a>
+        <a class="item-rodape" href="#">Trabalhe Conosco</a>
+        <a class="item-rodape" href="#">Seja um Patrocionador</a>
+        <a class="item-rodape" href="#">Localização</a>
+    </footer>
+</body>
+
+</html>
