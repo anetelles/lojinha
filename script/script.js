@@ -21,3 +21,5 @@ function img(trocarCor,setarImagem) {
 
 
 
+
+

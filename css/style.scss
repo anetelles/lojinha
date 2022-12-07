@@ -283,4 +283,26 @@ $primaryFont: "Jost", sans-serif;
     font-size: small;
 }
 
+.about-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    padding: 4em;
+    background-color: $primaryColor;
+
+    .profile-picture{
+        width: 20em;
+        height: 20em;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+    
+}
+
+
+
 
